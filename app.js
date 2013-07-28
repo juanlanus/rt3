@@ -1,12 +1,11 @@
 /** Module dependencies  */
-var express = require('express')
-  , routes = require('./routes')
-  , cors = require('cors')
-  , user = require('./routes/user')
+var express = require('express');
+var routes = require('./routes');
+var cors = require('cors');
+var user = require('./routes/user');
 // http://stackoverflow.com/questions/16548586/adding-a-new-route-to-node-express
-  , http = require('http')
-  , path = require('path');
-
+var http = require('http');
+var path = require('path');
 
 // FILES SERVER ****************************************************************
 var appFiles = express();
